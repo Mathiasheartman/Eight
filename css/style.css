@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+::before,
+::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-image: url(/img/f4824c002d1955965cc44b87fb490509.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-inline:30px;
+    color: white;
+    font-family: 'Montserrat', serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+section{
+    width: 1300px;
+    height: 600px;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 10px 30px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    align-items: center;
+    font-weight: 550;
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.home a{
+    font-size: 23px;
+    margin-right: 20px;
+}
+.home p{
+    border: 2px solid lawngreen;
+    color: lawngreen;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+ul{
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+    align-items: center;
+}
+ul li:first-child a{
+    background-color: lawngreen;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+h1{
+    padding-block: 100px 0;
+    text-align: right;
+    font-size: 50px;
+}
+.scroll{
+    position: fixed;
+    left: -10px;
+    bottom: 60px;
+    transform: rotate(-90deg);
+}
+.scroll span{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+    filter: invert();
+    transform: rotate(90deg);
+}
+.details{
+    position: relative;
+    bottom: 210px;
+    left: 140px;
+    padding: 20px;
+    background-color: #0000008c;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.418);
+}
+.details h4,
+.details p:first-of-type{
+    margin-bottom: 15px;
+}
+.details img{
+    width: 360px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.play{
+    position: relative;
+    z-index: 9;
+    top: 45px;
+    left: 315px;
+    padding: 12px 10px 12px 13px;
+    background-color: lawngreen;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
